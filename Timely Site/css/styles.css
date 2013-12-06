@@ -1,0 +1,272 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*--------------------------------------- HEADING -----------------------------------------------
+----------------------------------------------------------------------------------------------*/
+
+#heading{
+    width: 100%;
+    clear: both;
+    background: #2f2e2d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #2f2e2d 0%, #444342 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2f2e2d), color-stop(99%,#444342)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #2f2e2d 0%,#444342 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #2f2e2d 0%,#444342 99%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #2f2e2d 0%,#444342 99%); /* IE10+ */
+    background: linear-gradient(to bottom,  #2f2e2d 0%,#444342 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f2e2d', endColorstr='#444342',GradientType=0 ); /* IE6-9 */
+    overflow: auto;
+    height: 50px;
+    margin-bottom: 35px;
+}
+
+#heading > div{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#heading .wrapper{
+    width: 320px;
+    float: left;
+    position: absolute;
+
+}
+
+#heading form{
+    float: right;
+}
+
+#heading form{
+    margin-top: 13px;
+}
+
+#heading form input[type = 'text'],#heading form input[type = 'password']{
+    width: 150px;
+    height: 20px;
+    margin-right: 12px;
+    outline: none;
+}
+
+#heading form input[type = 'submit']{
+    padding: 7px 10px;
+    border: 0;
+    cursor: pointer;
+    background-color: #95CA4E;
+    color: white;
+    border-radius: 3px;
+}
+
+#heading form input[type = 'submit']:hover{
+    background-color: #87AF48;
+}
+
+/*--------------------------------------- CTA -----------------------------------------------
+----------------------------------------------------------------------------------------------*/
+
+#cta{
+    clear: both;
+    background: url('../images/timely-cta.png') center center no-repeat;
+    height: 300px;
+}
+
+#cta a{
+    display: block;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto 0;
+    text-decoration: none;
+    color: white;
+    background-color: #2F2E2D;
+    position: relative;
+    top: 235px;
+    font-family: 'Lobster', cursive;
+}
+
+#cta a:hover{
+    background-color: #383838;
+}
+
+#cta-back{
+    overflow: auto;
+    background-color: #8DC63F;
+}
+
+/*--------------------------------------- FEATURES -----------------------------------------------
+----------------------------------------------------------------------------------------------*/
+
+#features{
+    background-color: #EAEAEA;
+    overflow: auto;
+}
+
+#features .feature{
+    width: 270px;
+    margin: 15px;
+    padding: 10px;
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#features .feature h2{
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    margin-top: 5px;
+    padding: 3px 0;
+}
+
+#features .feature.one h2{
+    background: url(../images/clock.png) center left no-repeat;
+}
+#features .feature.two h2{
+    background: url(../images/check.png) center left no-repeat;
+}
+#features .feature.three h2{
+    background: url(../images/lightbulb.png) center left no-repeat;
+}
+
+#features .feature p{
+    font-family: 'Karla', sans-serif;
+}
+
+/*--------------------------------------- REVIEWS -----------------------------------------------
+----------------------------------------------------------------------------------------------*/
+
+#reviews{
+    clear: both;
+}
+
+#reviews .review{
+    width: 430px;
+    margin: 15px;
+    padding: 10px;
+    float: left;
+    font-family: 'Karla', sans-serif;
+}
+
+#reviews .review p:nth-child(1){
+    background: url(../images/quote_2.png) top left no-repeat;
+    padding: 20px 0 0 50px;
+    font-size: 1.25em;
+}
+
+#reviews h2{
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#reviews .review b{
+    float: right;
+}
+
+/*--------------------------------------- SIGN UP -----------------------------------------------
+----------------------------------------------------------------------------------------------*/
+
+#sign-up{
+    position: absolute;
+    overflow: auto;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 3px 3px 8px #666;
+    padding: 10px 40px;
+    font-family: 'Signika Negative', sans-serif;
+    left: 480px;
+    top: -100px;
+    display: none;
+}
+
+#sign-up .sign-up{
+    margin: 0 auto;
+    width: 100%;
+}
+
+#sign-up h1{
+    margin: 0;
+    text-align: center;
+}
+
+#sign-up label{
+    float: left;
+    clear: both;
+}
+#sign-up .sign{
+    padding: 30px 0;
+    margin: 0 20px;
+}
+
+#sign-up label{
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+#sign-up input{
+    clear: both;
+    float: left;
+}
+
+#sign-up input[type='text'], #sign-up input[type='password']{
+    height: 30px;
+    margin-top: 6px;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+#sign-up input[type='submit']{
+    float: right;
+    margin-top: 40px;
+    font-family: 'Signika Negative', sans-serif;
+    padding: 7px 10px;
+    border: 0;
+    cursor: pointer;
+    background-color: #95CA4E;
+    color: white;
+    border-radius: 3px;
+    font-size: 1.5em;
+}
+
+#sign-up input[type='submit']:hover{
+    background-color: #87AF48;
+}
+
+#sign-up img[src='images/cancel.png']{
+    position: absolute;
+    z-index: 3;
+    left: 440px;
+    top: 3px;
+    width: 40px;
+    cursor: pointer;
+}
+
+/*--------------------------------------- FOOTER -----------------------------------------------
+----------------------------------------------------------------------------------------------*/
+
+footer{
+    background: #2f2e2d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #2f2e2d 0%, #444342 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2f2e2d), color-stop(99%,#444342)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #2f2e2d 0%,#444342 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #2f2e2d 0%,#444342 99%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #2f2e2d 0%,#444342 99%); /* IE10+ */
+    background: linear-gradient(to bottom,  #2f2e2d 0%,#444342 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f2e2d', endColorstr='#444342',GradientType=0 ); /* IE6-9 */
+    overflow: auto;
+    clear: both;
+}
+
+footer p{
+    color: #fff;
+}
+
