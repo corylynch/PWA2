@@ -1,0 +1,24 @@
+<div>
+    <script type = 'text/template' id = 'project-template'>
+        <div class = 'project'>
+            <div class = 'project-div'>
+                <a href = '#' class = 'project-name'><h3>{{=projectName}}</h3></a>
+            </div>
+            <div class = 'project-div'>
+                <img src = 'images/118.png' class = 'slider'>
+            </div>
+            <div class = 'project-div'>
+                <p id = 'description' style = 'display: none'>{{=projectDescription}}</p>
+                <p class = 'add-task'>Add Task</p>
+            </div>
+            <div class = 'project-div'>
+                <p>{{=dueDate}}</p>
+                <p class = 'project-status'>{{=status}}</p>
+            </div>
+            <p class = 'pID' style = 'display: none;'>{{=id}}</p>
+            <div class = 'project-div'>
+                <img src = 'images/cancel.png' class = 'cancel'>
+            </div>
+        </div>
+    </script>
+</div>

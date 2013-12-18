@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <meta charset = 'utf-8'>
+    <title>Timely</title>
+    <link rel = 'stylesheet' href = 'css/styles.css' type = 'text/css'>
+    <link rel = 'stylesheet' href = 'css/styles2.css' type = 'text/css'>
+</head>
+<body>
+
+    <div id = 'heading'>
+        <div>
+            <div class = 'wrapper'>
+                <a href = 'index.html'><img src = 'images/timely-logo.png'></a>
+            </div>
+            <div id = 'logout-myaccount'>
+                <a href = '#'>My Account</a>
+                <a href = 'index.html'>Logout</a>
+            </div>
+        </div>
+    </div>
+    <div class = 'wrapper'>
+        <h1 id = 'my-projects'>Project Name</h1>
+        <div class = 'priority'>
+            <img src = 'images/red.png'>
+            <h2>High Priority</h2>
+        </div>
+        <div class = 'priority'>
+            <img src = 'images/green.png'>
+            <h2>Medium Priority</h2>
+        </div>
+        <div class = 'priority'>
+            <img src = 'images/grey.png'>
+            <h2>Low Priority</h2>
+        </div>
+        <h2 id = 'my-tasks'>Tasks for Project Name</h2>
+        <div id = 'project-wrapper'>
+            <div class = 'project task'>
+                <div class = 'project-div'>
+                    <a href = '#' class = 'task-name'><h3>Task name</h3></a>
+                </div>
+                <div class = 'project-div'>
+                    <img src = 'images/118.png' class = 'slider'>
+                </div>
+                <div class = 'project-div task'>
+                    <p>Due Date</p>
+                </div>
+                <div class = 'project-div task'>
+                    <p>Priority</p>
+                </div>
+                <div class = 'project-div cancel'>
+                    <img src = 'images/cancel.png' class = 'cancel task'>
+                </div>
+            </div>
+            <div class = 'project task high-priority'>
+                <div class = 'project-div'>
+                    <a href = '#' class = 'task-name'><h3>Task name</h3></a>
+                </div>
+                <div class = 'project-div'>
+                    <img src = 'images/118.png' class = 'slider'>
+                </div>
+                <div class = 'project-div task'>
+                    <p>Due Date</p>
+                </div>
+                <div class = 'project-div task'>
+                    <p>Priority</p>
+                </div>
+                <div class = 'project-div cancel'>
+                    <img src = 'images/cancel.png' class = 'cancel task'>
+                </div>
+            </div>
+            <div class = 'project task medium-priority'>
+                <div class = 'project-div'>
+                    <a href = '#' class = 'task-name'><h3>Task name</h3></a>
+                </div>
+                <div class = 'project-div'>
+                    <img src = 'images/118.png' class = 'slider'>
+                </div>
+                <div class = 'project-div task'>
+                    <p>Due Date</p>
+                </div>
+                <div class = 'project-div task'>
+                    <p>Priority</p>
+                </div>
+                <div class = 'project-div cancel'>
+                    <img src = 'images/cancel.png' class = 'cancel task'>
+                </div>
+            </div>
+            <div class = 'project task'>
+                <div class = 'project-div'>
+                    <a href = '#' class = 'task-name'><h3>Task name</h3></a>
+                </div>
+                <div class = 'project-div'>
+                    <img src = 'images/118.png' class = 'slider'>
+                </div>
+                <div class = 'project-div task'>
+                    <p>Due Date</p>
+                </div>
+                <div class = 'project-div task'>
+                    <p>Priority</p>
+                </div>
+                <div class = 'project-div cancel'>
+                    <img src = 'images/cancel.png' class = 'cancel task'>
+                </div>
+            </div>
+        </div>
+        <a href = '#' id = 'new-task-button'><h2>Add New Task</h2></a>
+        <div id = 'create-project'>
+            <h1>Add a Task</h1>
+            <img src = 'images/cancel.png' id ='cancel-pic'>
+            <form>
+                <div class = 'create'>
+                    <label for = 'project-name'>Task Name:</label>
+                    <input type = 'text' id = 'project-name' name = 'project-name' placeholder ='Name your project'>
+                </div>
+                <div class = 'create'>
+                    <label for = 'description'>Description:</label>
+                    <textarea id = 'description' name = 'description' placeholder ='A brief description of your project.'></textarea>
+                </div>
+                <div class = 'create'>
+                    <label for = 'due-date'>Due Date:</label>
+                    <input type = 'text' id = 'due-date' name = 'due-date' placeholder ='MM/DD/YY'>
+                </div>
+                <div class = 'create'>
+                    <label>Priority:</label>
+                    <div class = 'radio'>
+                        <input type ='radio' name = 'high' value = 'high' id = 'high'>
+                        <label for = 'high'>High</label>
+                        <input type ='radio' name = 'medium' value = 'medium' id = 'medium'>
+                        <label for = 'medium'>Medium</label>
+                        <input type ='radio' name = 'low' value = 'low' id = 'low'>
+                        <label for = 'low'>Low</label>
+                    </div>
+                </div>
+                <div class = 'create'>
+                    <input type = 'submit' name = 'submit' id = 'submit' value = 'Done'>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class = 'wrapper'>
+            <p>&copy 2013 Timely llc</p>
+        </div>
+    </footer>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type = 'text/javascript' src = 'js/main.js'></script>
+
+</body>
+</html>

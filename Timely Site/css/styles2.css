@@ -1,0 +1,264 @@
+
+/*--------------------------------------- HEADING -----------------------------------------------
+----------------------------------------------------------------------------------------------*/
+
+
+#logout-myaccount{
+    float: right;
+    margin-top: 15px;
+}
+
+#logout-myaccount a{
+    color: white;
+    margin-left: 80px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#logout-myaccount a:nth-child(2){
+    padding: 3px 7px;
+    border: 0;
+    cursor: pointer;
+    background-color: #666;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+#logout-myaccount a:nth-child(2):hover{
+    background-color: #6a6a6a;
+}
+
+/*--------------------------------------- PROJECT AND PRIORITY -----------------------------------------------
+----------------------------------------------------------------------------------------------*/
+
+#my-projects{
+    width: 240px;
+    float: left;
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+}
+
+.priority{
+    float: left;
+    width: 210px;
+    font-size: .7em;
+    padding-left: 30px;
+    margin-top: 20px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.priority img{
+    float: left;
+    width: 20px;
+    margin: 13px 15px;
+    border: 1px solid #666;
+}
+
+/*--------------------------------------- PROJECTS -----------------------------------------------
+----------------------------------------------------------------------------------------------*/
+
+
+.project{
+    clear: both;
+    width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+    background: #cdeb8e; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cdeb8e 0%, #a5c956 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #cdeb8e 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #cdeb8e 0%,#a5c956 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #cdeb8e 0%,#a5c956 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #cdeb8e 0%,#a5c956 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 ); /* IE6-9 */
+    font-family: 'Signika Negative', sans-serif;
+    box-shadow: 5px 0 10px #666, -5px 0 10px #666;
+    border-left: 8px solid #E74356;
+}
+
+.project-div a{
+    text-decoration: none;
+    color: #000;
+}
+
+.project-div{
+    float: left;
+    width: 180px;
+}
+
+.project-div h3{
+    margin: 30px 0 0 20px;
+}
+
+.project .slider{
+    margin: 23px 40px 0;
+    cursor: pointer;
+}
+
+.project-div p{
+    text-align: center;
+}
+
+.project-div .cancel{
+    float: right;
+    width: 30px;
+    cursor: pointer;
+}
+
+.project.high-priority{
+    border-left: 8px solid #C9C9C7;
+}
+
+.project.medium-priority{
+    border-left: 8px solid #2F2E2D;
+}
+
+#new-project-button{
+    float: right;
+    padding: 5px;
+    margin: 20px 24px 0 0;
+    width: 200px;
+    text-decoration: none;
+    background: #04bfbf; /* Old browsers */
+    background: -moz-linear-gradient(top,  #04bfbf 0%, #049ba3 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#04bfbf), color-stop(99%,#049ba3)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #04bfbf 0%,#049ba3 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #04bfbf 0%,#049ba3 99%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #04bfbf 0%,#049ba3 99%); /* IE10+ */
+    background: linear-gradient(to bottom,  #04bfbf 0%,#049ba3 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04bfbf', endColorstr='#049ba3',GradientType=0 ); /* IE6-9 */
+    color: #fff;
+    font-family: 'Signika Negative', sans-serif;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #000;
+}
+
+#new-project-button h2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/*--------------------------------------- FOOTER -----------------------------------------------
+----------------------------------------------------------------------------------------------*/
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*--------------------------------------- CREATE NEW PROJECT -----------------------------------------------
+----------------------------------------------------------------------------------------------*/
+
+
+#create-project{
+    position: absolute;
+    overflow: auto;
+    width: 850px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 3px 3px 8px #666;
+    padding: 10px 40px;
+    font-family: 'Signika Negative', sans-serif;
+    left: 255px;
+    top: 600px;
+    display: none;
+}
+
+#create-project .create{
+    clear: both;
+}
+#create-project h1{
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+#create-project label{
+    float: left;
+    clear: both;
+}
+
+#create-project label{
+    margin-top: 20px;
+    font-size: 1.5em;
+    clear: both;
+}
+
+#create-project input{
+    clear: both;
+    float: left;
+}
+
+#create-project #radio-container{
+    float: left;
+    clear: both;
+}
+
+#create-project .radio input[type='radio'], #create-project .radio label{
+    float: left;
+    clear: none;
+}
+
+#create-project .radio input[type='radio']{
+    margin: 28px 5px 0 40px;
+
+}
+
+#create-project input[type='text']{
+    height: 30px;
+    margin-top: 6px;
+    width: 50%;
+    font-size: 1.5em;
+    clear: both;
+}
+
+#create-project textarea{
+    width: 100%;
+    height: 100px;
+    font-size: 1.5em
+}
+
+#create-project input[type='submit']{
+    float: right;
+    margin-top: 40px;
+    font-family: 'Signika Negative', sans-serif;
+    padding: 7px 10px;
+    border: 0;
+    cursor: pointer;
+    background-color: #95CA4E;
+    color: white;
+    border-radius: 3px;
+    font-size: 1.5em;
+}
+
+#create-project input[type='submit']:hover{
+    background-color: #87AF48;
+}
+
+#create-project img[src='images/cancel.png']{
+    position: absolute;
+    z-index: 3;
+    left: 880px;
+    top: 3px;
+    width: 40px;
+    cursor: pointer;
+}
+
+/*--------------------------------------- PROJECT TASK -----------------------------------------------
+----------------------------------------------------------------------------------------------*/
+
+ .project.task{
+     background: #04bfbf; /* Old browsers */
+     background: -moz-linear-gradient(top,  #04bfbf 0%, #049ba0 99%); /* FF3.6+ */
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#04bfbf), color-stop(99%,#049ba0)); /* Chrome,Safari4+ */
+     background: -webkit-linear-gradient(top,  #04bfbf 0%,#049ba0 99%); /* Chrome10+,Safari5.1+ */
+     background: -o-linear-gradient(top,  #04bfbf 0%,#049ba0 99%); /* Opera 11.10+ */
+     background: -ms-linear-gradient(top,  #04bfbf 0%,#049ba0 99%); /* IE10+ */
+     background: linear-gradient(to bottom,  #04bfbf 0%,#049ba0 99%); /* W3C */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04bfbf', endColorstr='#049ba0',GradientType=0 ); /* IE6-9 */
+     color: #fff;
+ }
+
+

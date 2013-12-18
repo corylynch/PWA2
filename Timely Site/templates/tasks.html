@@ -1,0 +1,71 @@
+<div>
+    <script type = 'template' id = 'task-template'>
+
+        <div id = 'heading'>
+            <div>
+                <div class = 'wrapper'>
+                    <a href = 'index.html'><img src = 'images/timely-logo.png'></a>
+                </div>
+                <div id = 'logout-myaccount'>
+                    <a href = '#'>My Account</a>
+                    <a href = 'index.html'>Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class = 'wrapper'>
+            <h1 id = 'pName'></h1>
+            <div class = 'project-description'>
+                <p></p>
+            </div>
+            <h4 id = 'my-tasks'>Tasks</h4>
+
+            <!---------------------- EMPTY TASK WRAPPER TO BE FILLED -------------------------->
+            <div id = 'task-wrapper'>
+
+
+            </div>
+            <div id = 'buttons'>
+                <a href = '#' id = 'new-task-button'><h2>Add New Task</h2></a>
+                <a href = '#' id = 'back-to-projects'><h2>Back to Projects</h2></a>
+            </div>
+            <div id = 'create-project'>
+                <h1>Add a Task</h1>
+                <img src = 'images/cancel.png' id ='cancel-pic'>
+                <form>
+                    <div class = 'create'>
+                        <label for = 'task-name'>Task Name:</label>
+                        <input type = 'text' id = 'task-name' name = 'task-name' placeholder ='Name your task'>
+                    </div>
+                    <div class = 'create'>
+                        <label for = 'task-description'>Description:</label>
+                        <textarea id = 'task-description' name = 'description' placeholder ='A brief description of your task.'></textarea>
+                    </div>
+                    <div class = 'create'>
+                        <label for = 'task-due-date'>Due Date:</label>
+                        <input type = 'text' id = 'task-due-date' name = 'due-date' placeholder ='MM/DD/YY'>
+                    </div>
+                    <div class = 'create'>
+                        <label>Status:</label>
+                        <div class = 'radio'>
+                            <input type ='radio' name = 'task-status' value = 'active' id = 'high'>
+                            <label for = 'high'>Active</label>
+                            <input type ='radio' name = 'task-status' value = 'delayed' id = 'medium'>
+                            <label for = 'medium'>Delayed</label>
+                            <input type ='radio' name = 'task-status' value = 'medium' id = 'low'>
+                            <label for = 'low'>Other</label>
+                        </div>
+                    </div>
+                    <div class = 'create'>
+                        <input type = 'submit' name = 'submit' id = 'submit-task' value = 'Done'>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer class = 'footer2'>
+            <div class = 'wrapper'>
+                <p>&copy 2013 Timely llc</p>
+            </div>
+        </footer>
+
+    </script>
+</div>

@@ -1,0 +1,163 @@
+<div>
+    <script type = 'text/template' id = 'app-template'>
+        <div id = 'heading'>
+            <div>
+                <div class = 'wrapper'>
+                    <a href = 'index.html'><img src = 'images/timely-logo.png'></a>
+                </div>
+                <div id = 'logout-myaccount'>
+                    <a href = '#' id = 'my-account-button'>My Account</a>
+                    <a href = '#' id = 'logout'>Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class = 'wrapper'>
+            <div id = 'my-account'>
+                <img src = 'images/cancel.png' id ='cancel-account-pic'>
+
+                <div class = 'accordion'>
+                    <div class = 'update-account'>
+                        <p class = 'title'><b>Name</b></p>
+                        <p>your name here</p>
+                        <a href = '#' class = 'edit'>Edit</a>
+                    </div>
+                    <div class = 'edit-info'>
+                        <form>
+                            <div class = 'new-info'>
+                                <label>New Name</label>
+                                <input type = 'text' name = 'newname'>
+                            </div>
+                            <div class = 'new-info'>
+                                <label>Retype New Name</label>
+                                <input type = 'text' name = 'newname'>
+                            </div>
+                            <div class = 'new-info'>
+                                <input type = 'submit' id = 'submit' name = 'submit' value = 'update'>
+                            </div>
+                        </form>
+                    </div>
+                    <div class = 'update-account'>
+                        <p class = 'title'><b>Username</b></p>
+                        <p>your username here</p>
+                        <a href = '#' class = 'edit'>Edit</a>
+                    </div>
+                    <div class = 'edit-info'>
+                        <form>
+                            <div class = 'new-info'>
+                                <label>New Username</label>
+                                <input type = 'text' name = 'newname'>
+                            </div>
+                            <div class = 'new-info'>
+                                <label>Retype New Username</label>
+                                <input type = 'text' name = 'newusername'>
+                            </div>
+                            <div class = 'new-info'>
+                                <input type = 'submit' name = 'submit' value = 'update'>
+                            </div>
+                        </form>
+                    </div>
+                    <div class = 'update-account'>
+                        <p class = 'title'><b>Email</b></p>
+                        <p>your email here</p>
+                        <a href = '#' class = 'edit'>Edit</a>
+                    </div>
+                    <div class = 'edit-info'>
+                        <form>
+                            <div class = 'new-info'>
+                                <label>New Email</label>
+                                <input type = 'text' name = 'newname'>
+                            </div>
+                            <div class = 'new-info'>
+                                <label>Retype New Email</label>
+                                <input type = 'text' name = 'newemail'>
+                            </div>
+                            <div class = 'new-info'>
+                                <input type = 'submit' name = 'submit' value = 'update'>
+                            </div>
+                        </form>
+                    </div>
+                    <div class = 'update-account'>
+                        <p class = 'title'><b>Password</b></p>
+                        <p>Changed on <b>4/3/1994</b></p>
+                        <a href = '#' class = 'edit'>Edit</a>
+                    </div>
+                    <div class = 'edit-info'>
+                        <form>
+                            <div class = 'new-info'>
+                                <label>New Password</label>
+                                <input type = 'password' name = 'newname'>
+                            </div>
+                            <div class = 'new-info'>
+                                <label>Retype New Password</label>
+                                <input type = 'password' name = 'newpassword'>
+                            </div>
+                            <div class = 'new-info'>
+                                <input type = 'submit' name = 'submit' value = 'update'>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <h1 id = 'my-projects'>My Projects</h1>
+            <div class = 'priority'>
+                <img src = 'images/red.png'>
+                <h2>Active</h2>
+            </div>
+            <div class = 'priority'>
+                <img src = 'images/green.png'>
+                <h2>Delayed</h2>
+            </div>
+            <div class = 'priority'>
+                <img src = 'images/grey.png'>
+                <h2>Other</h2>
+            </div>
+
+
+            <!-------------empty projects div to be filled--------------------------------->
+
+            <div id = 'project-wrapper' class = 'sortable'>
+
+            </div>
+
+            <a href = '#' id = 'new-project-button'><h2>Add New Project</h2></a>
+            <div id = 'create-project'>
+                <h1>Create a Project</h1>
+                <img src = 'images/cancel.png' id ='cancel-pic'>
+                <form>
+                    <div class = 'create'>
+                        <label for = 'project-name'>Project Name:</label>
+                        <input type = 'text' id = 'project-name' name = 'project-name' placeholder ='Name your project'>
+                    </div>
+                    <div class = 'create'>
+                        <label for = 'description'>Description:</label>
+                        <textarea id = 'description' name = 'description' placeholder ='A brief description of your project.'></textarea>
+                    </div>
+                    <div class = 'create'>
+                        <label for = 'due-date'>Due Date:</label>
+                        <input type = 'text' id = 'due-date' name = 'due-date' placeholder ='MM/DD/YY'>
+                    </div>
+                    <div class = 'create'>
+                        <label>Status:</label>
+                        <div class = 'radio'>
+                            <input type ='radio' name = 'priority' value = 'active' id = 'high'>
+                            <label for = 'high'>Active</label>
+                            <input type ='radio' name = 'priority' value = 'delayed' id = 'medium'>
+                            <label for = 'medium'>Delayed</label>
+                            <input type ='radio' name = 'priority' value = 'other' id = 'low'>
+                            <label for = 'low'>Other</label>
+                        </div>
+                    </div>
+                    <div class = 'create'>
+                        <input type = 'submit' name = 'submit' id = 'submit-create-project' value = 'Done'>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <footer class = 'footer3'>
+            <div class = 'wrapper'>
+                <p>&copy 2013 Timely llc</p>
+            </div>
+        </footer>
+    </script>
+</div>
