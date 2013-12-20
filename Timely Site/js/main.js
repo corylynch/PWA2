@@ -80,6 +80,47 @@ $(document).ready(function(){
 //
 //                    pStatus();
 
+                    var deleteP = $('.delete');
+                    var deleteButton = $('.delete-button');
+                    var cancelDelete = $('.cancel-delete-button');
+
+                    $('.cancel').on('click', function(e){
+
+                        deleteP.animate({
+                            top: '150px',
+                            opacity: 1
+                        });
+
+                        deleteP.show();
+
+
+                    });
+
+                    deleteButton.on('click', function(e){
+
+                        deleteP.css({
+                            top: '-200px',
+                            opacity: 0
+                        });
+
+                        deleteP.hide();
+
+                        var id = $('.pID').html();
+                        deleteProject(id);
+                        loadApp();
+                        return false;
+
+                    });
+
+                    cancelDelete.on('click', function(e){
+                        deleteP.css({
+                            top: '-200px',
+                            opacity: 0
+                        });
+
+                        deleteP.hide();
+                    });
+
                     // loads tasks on click of project name
                     projectName.on('click', function(e){
                         var id = $(this).parent().parent().find('.pID').html();
@@ -96,15 +137,38 @@ $(document).ready(function(){
     };
 
 
+//----------------------------DELETE PROJECTS------------------------------------------------
+
+    var deleteProject = function(id){
+
+        $.ajax({
+            url: 'xhr/delete_project.php',
+            type: 'post',
+            data:{
+                projectID: id
+            },
+            dataType: 'json',
+            success: function(response){
+                id.parent().remove();
+                loadApp();
+                return false;
+            }
+        })
+    };
+
+
+
+
 //----------------------------GET TASKS------------------------------------------------
 
-var getTasks = function(id){
+var getTasks = function(id, pDesc){
 
     $.ajax({
         url: 'xhr/get_tasks.php',
         type: 'get',
         data:{
-            projectID: id
+            projectID: id,
+            projectDescription: pDesc
         },
         dataType: 'json',
         success: function(response){
@@ -128,7 +192,7 @@ var getTasks = function(id){
     var newProject = function(){
 
         var projectName = $('#project-name').val();
-        var description = $('#description').val();
+        var description = $('textarea').val();
         var status = $("input[name='priority']:checked").val();
 
         $.ajax({
@@ -284,6 +348,7 @@ var getTasks = function(id){
 
             $('.project-wrapper').sortable();
 
+
             var projectButton = $('#new-project-button');
             var newProjectBox = $('#create-project');
             var myAccountButton = $('#my-account-button');
@@ -426,7 +491,7 @@ var getTasks = function(id){
                 return false;
             });
 
-            getTasks(id);
+            getTasks(id, pDesc);
 
         })
 

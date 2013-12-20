@@ -5,10 +5,10 @@
     <ignored path="Timely Site.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1387121257618" ignored="false" />
-    <file path="/styles.css" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1387395812289" ignored="false" />
+    <file path="/styles.css" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1387515019429" ignored="false" />
     <file path="$PROJECT_DIR$/../Activity4 Events/index.html" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1386339125062" ignored="false" />
     <file path="$PROJECT_DIR$/../Activity4 Events/js/main.js" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1386340163049" ignored="false" />
-    <file path="/main.js" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1387395779901" ignored="false" />
+    <file path="/main.js" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1387515088770" ignored="false" />
     <file path="$USER_HOME$/Downloads/courseActivity4-1 STUDENT/js/main.js" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1386343838916" ignored="false" />
     <file path="$USER_HOME$/Downloads/courseActivity4-1 STUDENT/Activity4-1.html" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1386342474792" ignored="false" />
     <file path="/Activity4-1.html" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1386342472865" ignored="false" />
@@ -28,7 +28,7 @@
     <file path="$PROJECT_DIR$/../PWA2-1312/goal 5/login/loginLogout.js" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1386611542871" ignored="false" />
     <file path="/projects-template.html" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1386613033781" ignored="false" />
     <file path="/landing.html" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1386787183153" ignored="false" />
-    <file path="/app.html" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1387375963990" ignored="false" />
+    <file path="/app.html" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1387513172443" ignored="false" />
     <file path="/tasks.html" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1387391665904" ignored="false" />
     <file path="$USER_HOME$/Desktop/Goal7-ShoppingCart/store/index.html" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1386779780691" ignored="false" />
     <file path="$USER_HOME$/Desktop/Goal7-ShoppingCart/store/js/script.js" changelist="8cb56b53-7357-495d-a6f7-682f551d672e" time="1386779688788" ignored="false" />
@@ -87,7 +87,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="55" selection-start="1867" selection-end="1867" vertical-scroll-proportion="0.3887195">
+            <state line="121" column="23" selection-start="3682" selection-end="3682" vertical-scroll-proportion="0.72545755">
               <folding />
             </state>
           </provider>
@@ -105,7 +105,7 @@
       <file leaf-file-name="app.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="74" selection-start="5654" selection-end="5654" vertical-scroll-proportion="-9.3">
+            <state line="160" column="41" selection-start="7646" selection-end="7646" vertical-scroll-proportion="-5.974684">
               <folding />
             </state>
           </provider>
@@ -126,7 +126,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="424" column="20" selection-start="9608" selection-end="9608" vertical-scroll-proportion="-6.6363635">
+            <state line="843" column="36" selection-start="20896" selection-end="20896" vertical-scroll-proportion="-2.2">
               <folding />
             </state>
           </provider>
@@ -152,10 +152,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/templates/template.html" />
         <option value="$PROJECT_DIR$/templates/task.html" />
-        <option value="$PROJECT_DIR$/templates/app.html" />
         <option value="$PROJECT_DIR$/templates/tasks.html" />
         <option value="$PROJECT_DIR$/templates/load-tasks.html" />
         <option value="$PROJECT_DIR$/templates/project.html" />
+        <option value="$PROJECT_DIR$/templates/app.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
       </list>
@@ -394,21 +394,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/jquery-ui-1.10.3.custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5278" column="33" selection-start="161791" selection-end="161791" vertical-scroll-proportion="1.0768">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1386762776000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386762776000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386762776000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386762776000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386762776000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386762776000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-tasks.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -486,9 +471,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/app.html">
+    <entry file="file://$PROJECT_DIR$/xhr/delete_project.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="74" selection-start="5654" selection-end="5654" vertical-scroll-proportion="-9.3">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -503,16 +488,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="41" selection-start="7646" selection-end="7646" vertical-scroll-proportion="-5.974684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="424" column="20" selection-start="9608" selection-end="9608" vertical-scroll-proportion="-6.6363635">
+        <state line="843" column="36" selection-start="20896" selection-end="20896" vertical-scroll-proportion="-2.2">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="55" selection-start="1867" selection-end="1867" vertical-scroll-proportion="0.3887195">
+        <state line="121" column="23" selection-start="3682" selection-end="3682" vertical-scroll-proportion="0.72545755">
           <folding />
         </state>
       </provider>
